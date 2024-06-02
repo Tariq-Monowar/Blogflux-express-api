@@ -19,7 +19,9 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 - `DELETE /post/comment/:postId/:commentId` - Delete a comment (authentication required)
 - `GET /post/topblogs` - Get top blogs
 - `GET /post/topbloger` - Get top bloggers
-## Folder Structure
+## Project Structure
+
+```plaintext
 .
 ├── config
 │   ├── config.js
