@@ -45,11 +45,7 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 ├── package.json
 └── README.md
 ```
-### Set up environment variables:
-DBURL=your_mongodb_connection_string
-PORT=your_port_number
-SECRET_KEY=your_jwt_secret_key
-IMGBB_API_KEY=your_imgbb_api_key
+
 ## Installation
 1. **Clone the repository**:
    ```bash
