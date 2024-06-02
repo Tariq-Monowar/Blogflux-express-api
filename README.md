@@ -1,7 +1,9 @@
 # Blogflux
-Blogflux is a blogging platform that allows users to create, update, and delete blog posts. Users can also Rating blog, comment, and view top blogs and bloggers. The platform features authentication and authorization mechanisms to ensure secure access and interaction.
+
+Blogflux is a blogging platform that allows users to create, update, and delete blog posts. Users can also rate blogs, comment, and view top blogs and bloggers. The platform features authentication and authorization mechanisms to ensure secure access and interaction.
 
 ## API Endpoints
+
 ### User Routes
 - `GET /users/` - Get all users
 - `POST /users/` - Create a new user
@@ -9,6 +11,7 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 - `DELETE /users/` - Delete a user (authentication required)
 - `POST /users/login` - User login
 - `GET /users/profile` - Get user profile (authentication required)
+
 ### Post Routes
 - `GET /post/` - Get all posts
 - `POST /post/` - Create a new post (authentication required)
@@ -18,8 +21,8 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 - `POST /post/comment/:id` - Create a comment on a post (authentication required)
 - `DELETE /post/comment/:postId/:commentId` - Delete a comment (authentication required)
 - `GET /post/topblogs` - Get top blogs
-- `GET /post/topbloger` - Get top bloggers
- 
+- `GET /post/topblogger` - Get top bloggers
+
 ## Project Structure
 ```plaintext
 ├── config
@@ -34,7 +37,7 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 │   └── users.models.js
 ├── routes
 │   ├── posts.routes.js
-│   ├── users.routes.js
+│   └── users.routes.js
 ├── app.js
 ├── index.js
 ├── .env
@@ -43,22 +46,10 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 └── README.md
 
 ## Installation
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/Blogflux.git
    cd Blogflux 
 
-
-2. **Install dependencies**:
-   ```bash
-    npm install
-3. **Set up environment variables**:
-   ```bash
-   DBURL=your_mongodb_connection_string
-   PORT=your_port_number
-   SECRET_KEY=your_jwt_secret_key
-   IMGBB_API_KEY=your_imgbb_api_key
-4. **Start the application**:
-    ```bash
-   npm start
 
