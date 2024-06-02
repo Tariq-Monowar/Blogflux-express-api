@@ -3,4 +3,19 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 
 ## API Endpoints
 ### User Routes
-- `GET /users/` - Get all users 
+- `GET /users/` - Get all users
+- `POST /users/` - Create a new user
+- `PATCH /users/` - Update user details (authentication required)
+- `DELETE /users/` - Delete a user (authentication required)
+- `POST /users/login` - User login
+- `GET /users/profile` - Get user profile (authentication required)
+### Post Routes
+- `GET /post/` - Get all posts
+- `POST /post/` - Create a new post (authentication required)
+- `PATCH /post/:id` - Update a post (authentication required)
+- `DELETE /post/:id` - Delete a post (authentication required)
+- `POST /post/like/:id` - Like or unlike a post (authentication required)
+- `POST /post/comment/:id` - Create a comment on a post (authentication required)
+- `DELETE /post/comment/:postId/:commentId` - Delete a comment (authentication required)
+- `GET /post/topblogs` - Get top blogs
+- `GET /post/topbloger` - Get top bloggers
