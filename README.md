@@ -3,4 +3,4 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 
 ## API Endpoints
 ### User Routes
-- GET /users/ - Get all users 
+- `GET /users/` - Get all users 
