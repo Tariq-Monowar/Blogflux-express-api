@@ -46,7 +46,9 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/Blogflux.git
-   cd Blogflux
+   cd Blogflux 
+
+
 2. **Install dependencies**:
    ```bash
     npm install
