@@ -24,7 +24,7 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 - `GET /post/topblogger` - Get top bloggers
 
 ## Project Structure
-```plaintext
+
 ├── config
 │   ├── config.js
 │   └── db.js
@@ -45,7 +45,7 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 ├── package.json
 └── README.md
 
-## Installation
+### Set up environment variables:
 
 1. **Clone the repository**:
    ```bash
