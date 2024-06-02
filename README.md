@@ -20,9 +20,7 @@ Blogflux is a blogging platform that allows users to create, update, and delete 
 - `GET /post/topblogs` - Get top blogs
 - `GET /post/topbloger` - Get top bloggers
 ## Project Structure
-
 ```plaintext
-.
 ├── config
 │   ├── config.js
 │   └── db.js
